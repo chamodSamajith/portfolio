@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable image optimization
   },
-  assetPrefix: process.env.NODE_ENV === "production" ? "/{repo-name}" : "", // Set asset prefix for production
-  basePath: process.env.NODE_ENV === "production" ? "/{repo-name}" : "", // Set base path for production
+  assetPrefix: process.env.NODE_ENV === "production" ? "/portfolio" : "", // Set asset prefix for production
+  basePath: process.env.NODE_ENV === "production" ? "/portfolio" : "", // Set base path for production
 };
 
 export default nextConfig;
