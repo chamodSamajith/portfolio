@@ -8,6 +8,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background flex justify-center">
       <NavBar />
+      {/* test */}
       <main className="container pt-24 pb-16 pl-[22%]">
         <div className="max-w-5xl w-full">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-8">
