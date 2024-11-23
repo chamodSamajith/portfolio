@@ -1,6 +1,3 @@
-import { ExternalLink } from "lucide-react";
-import Link from "next/link";
-
 import { NavBar } from "@/components/nav-bar";
 import { Card, CardContent } from "@/components/ui/card";
 
