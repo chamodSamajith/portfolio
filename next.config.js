@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: "export", // Enable static export mode
   images: {
     unoptimized: true, // Disable image optimization
@@ -9,4 +8,4 @@ const nextConfig: NextConfig = {
   basePath: process.env.NODE_ENV === "production" ? "/portfolio" : "", // Set base path for production
 };
 
-export default nextConfig;
+module.exports = nextConfig;
